@@ -1,0 +1,44 @@
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 24px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  letter-spacing: 0.25px;
+
+  font-size: 24px;
+}
+
+.title {
+  line-height: 1em;
+  margin-bottom: -30px;
+  color: var(--main-font-color);
+}
+
+.jobs {
+  color: var(--thirnary-font-color);
+}
+
+.desc {
+  color: var(--secondary-font-color);
+  font-weight: 300;
+}
+
+.right {
+  flex: 0.5;
+}
+
+.images {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+/* Responsive */
