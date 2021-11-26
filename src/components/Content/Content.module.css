@@ -36,6 +36,7 @@
 
 .contestImg {
   width: 400px;
+  border-radius: 16px;
 }
 
 /* Responsive */
@@ -60,6 +61,7 @@
   }
 
   .contestImg {
+   
     width: 400px;
   }
 }

@@ -1,0 +1,30 @@
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap : 20px;
+}
+
+.title {
+    font-size: 32px;
+}
+
+.wrapContent {
+    padding: 24px;
+    border-radius: 16px;
+    background-color: #ffff;
+    box-shadow: var(--box-shadow);
+}
+
+.wrapContent:hover {
+    background-color: var(--main-background-color);
+}
+
+.imagesDribbble {
+    border-radius: 16px;
+}
+
+.tags {
+    color: var(--secondary-font-color);
+    font-size: 16px;
+}
