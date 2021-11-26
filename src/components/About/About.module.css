@@ -3,9 +3,12 @@
 
   padding-left: 32px;
   padding-right: 32px;
-
+  
   justify-content: space-between;
   align-items: center;
+
+
+
 }
 
 .wrapTitle {
@@ -37,8 +40,10 @@
 }
 
 .buttonCV {
+  margin-bottom: 24px;
   display: flex;
   flex-direction: column;
+ 
 }
 
 /* Responsive */
