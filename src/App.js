@@ -10,6 +10,7 @@ import Dribbble from "./components/Dribbble";
 
 import axios from 'axios';
 import{ useState, useEffect } from 'react';
+import Footer from "./components/Footer";
 
 
 
@@ -52,7 +53,7 @@ export default function App() {
         {error && <p>error...</p>}
         {dribbbleData.length > 0 && <Dribbble dribbbleData={dribbbleData} />}
       </Container>
-     
+      <Footer />
     </>
   );
 }

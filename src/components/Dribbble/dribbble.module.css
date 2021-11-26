@@ -3,11 +3,22 @@
     flex-wrap: wrap;
     justify-content: center;
     gap : 20px;
+    
+   
 }
 
 .title {
     font-size: 32px;
 }
+
+.wrapTitle {
+    display: flex;
+    flex: 1;
+  
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 24px;
+  }
 
 .wrapContent {
     padding: 24px;
